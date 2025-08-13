@@ -6,8 +6,8 @@ const App = () => {
   const [translated, setTranslated] = useState("");
   return (
     // left side
-    <div className="min-h-screen bg-[#a8d0ff] flex items-center justify-center gap-6 p-4">
-      <div className="w-72 bg-white rounded-[2rem] p-6 flex flex-col items-center gap-6 shadow-lg">
+    <div className="min-h-screen bg-[#a8d0ff] flex items-start justify-center gap-6 p-4">
+      <div className="w-72 min-h-[500px] bg-white rounded-[2rem] p-6 flex flex-col items-center gap-12 shadow-lg">
         <h1 className="font-semibold text-lg">
           Bolo <span className="text-orange-500">Na!</span>{" "}
         </h1>
@@ -40,7 +40,7 @@ const App = () => {
 
       {/* right side */}
 
-      <div className="w-72 bg-white rounded-[2rem] p-6 flex flex-col gap-6 shadow-lg">
+      <div className="w-72 min-h-[500px] bg-white rounded-[2rem] p-6 flex flex-col gap-6 shadow-lg">
         <h1 className="font-semibold text-lg ">
           Bolo <span className="text-orange-500">Na!</span>
         </h1>
